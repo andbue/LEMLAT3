@@ -4,7 +4,7 @@ OD=debug.linux
 LD=$(MD)/lib.linux/debug
 SD=$(MD)/LemLatLIB
 LEMLATDBDIR=$(MD)/../LemLatDB
-MYSQL_INCLUDE_DIR=/usr/include/mysql
+MYSQL_INCLUDE_DIR=/usr/include/mariadb
 
 # Compiler
 CC=gcc

@@ -4,7 +4,7 @@ LD=$(MD)/lib.linux/debug
 SD=$(MD)/LemLatDB
 MYSQLUTILDIR=$(MD)/../mysqlUtil
 INCS=-I$(MYSQLUTILDIR)/include -I$(MD)/include
-MYSQL_INCLUDE_DIR=/usr/include/mysql/
+MYSQL_INCLUDE_DIR=/usr/include/mariadb/
 
 FLAGS=$(INCS) -I$(MYSQL_INCLUDE_DIR) -g -fPIC
 
