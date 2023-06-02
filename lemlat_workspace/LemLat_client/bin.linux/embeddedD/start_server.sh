@@ -1,1 +1,1 @@
-bin/mysqld_safe --defaults-file=my_gen.cnf
+mysqld --defaults-file=my_gen.cnf -u root

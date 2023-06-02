@@ -1,15 +1,16 @@
 #mysql configuration file
 #for lemlat application
 [mysqld_safe]
-ledir = /home/paolo/LemLat2015/lemlat_workspace/LemLat_client/bin.linux/embeddedD/bin
+ledir = /tmp/LEMLAT3/lemlat_workspace/LemLat_client/bin.linux/embeddedD/bin
 
 [mysqld]
 port = 63301
-socket = /home/paolo/LemLat2015/lemlat_workspace/LemLat_client/bin.linux/embeddedD/run/mysql63301.sock
-basedir = /home/paolo/LemLat2015/lemlat_workspace/LemLat_client/bin.linux/embeddedD
-datadir = /home/paolo/LemLat2015/lemlat_workspace/LemLat_client/bin.linux/embeddedD/data
-tmpdir = /home/paolo/LemLat2015/lemlat_workspace/LemLat_client/bin.linux/embeddedD/tmp
-pid-file = /home/paolo/LemLat2015/lemlat_workspace/LemLat_client/bin.linux/embeddedD/tmp/mysql66301.pid
+innodb_file_per_table=OFF
+socket = /tmp/LEMLAT3/lemlat_workspace/LemLat_client/bin.linux/embeddedD/run/mysql63301.sock
+basedir = /tmp/LEMLAT3/lemlat_workspace/LemLat_client/bin.linux/embeddedD
+datadir = /tmp/LEMLAT3/lemlat_workspace/LemLat_client/bin.linux/embeddedD/data
+tmpdir = /tmp/LEMLAT3/lemlat_workspace/LemLat_client/bin.linux/embeddedD/tmp
+pid-file = /tmp/LEMLAT3/lemlat_workspace/LemLat_client/bin.linux/embeddedD/tmp/mysql66301.pid
 log-error
 
 [lemlat_CLIENT]
