@@ -5,7 +5,6 @@ ledir = /tmp/LEMLAT3/lemlat_workspace/LemLat_client/bin.linux/embeddedD/bin
 
 [mysqld]
 port = 63301
-innodb_file_per_table=OFF
 socket = /tmp/LEMLAT3/lemlat_workspace/LemLat_client/bin.linux/embeddedD/run/mysql63301.sock
 basedir = /tmp/LEMLAT3/lemlat_workspace/LemLat_client/bin.linux/embeddedD
 datadir = /tmp/LEMLAT3/lemlat_workspace/LemLat_client/bin.linux/embeddedD/data
